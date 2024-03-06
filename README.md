@@ -1,0 +1,2 @@
+# LibrarySystem_by_Qt
+使用Qt与Access实现图书馆管理系统
