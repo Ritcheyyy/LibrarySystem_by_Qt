@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dealapply</class>
+ <widget class="QWidget" name="dealapply">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>618</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableView" name="tableView">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>911</width>
+     <height>511</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="deleteBtn">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>530</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>处理完毕</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

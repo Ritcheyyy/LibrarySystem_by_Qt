@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>forget_questioncheck</class>
+ <widget class="QWidget" name="forget_questioncheck">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>450</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>40</y>
+     <width>107</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="question">
+      <property name="text">
+       <string>密保问题：</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="answer">
+      <property name="text">
+       <string>输入密保答案：</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="email">
+      <property name="text">
+       <string>输入邮箱：</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="check">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>250</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>验证</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>30</y>
+     <width>211</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLineEdit" name="showquestion"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="answerquestion"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="inputemail"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="apply">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>10</y>
+     <width>200</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>仍然无法找回？立即申诉</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>250</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>deletereserve</class>
+ <widget class="QWidget" name="deletereserve">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>618</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="returnBtn">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>510</y>
+     <width>150</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定取消预约</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>14</x>
+     <y>50</y>
+     <width>921</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>801</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>以下是您已借阅/预约的书籍，点击对应书籍后按下“确定取消预约”即可删除该记录:</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

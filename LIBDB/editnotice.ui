@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>editnotice</class>
+ <widget class="QWidget" name="editnotice">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>424</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableView" name="tableView">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>500</height>
+    </rect>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="newnotice">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>510</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>新增通知</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="deletenotice">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>510</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>删除一行通知</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="save">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>510</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>保存记录</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

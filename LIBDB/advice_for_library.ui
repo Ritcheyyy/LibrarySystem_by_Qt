@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>advice_for_library</class>
+ <widget class="QWidget" name="advice_for_library">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>120</y>
+     <width>241</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>在这里写下你对图书馆的建议：</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="submit">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>460</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>提交</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>460</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>170</y>
+     <width>321</width>
+     <height>251</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
